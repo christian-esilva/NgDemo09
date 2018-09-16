@@ -67,6 +67,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\js\angular-animate.min.js.map" />
+    <Content Include="content\js\angular-cookies.min.js.map" />
+    <Content Include="content\js\angular-route.min.js.map" />
+    <Content Include="content\js\angular-sanitize.min.js.map" />
+    <Content Include="content\js\angular-touch.min.js.map" />
+    <Content Include="content\js\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +84,38 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\css\custom.css" />
+    <Content Include="content\css\font-awesome.min.css" />
+    <Content Include="content\css\spinner.css" />
+    <Content Include="content\css\themes\bootstrap-cerulean.min.css" />
+    <Content Include="content\css\themes\bootstrap-cosmo.min.css" />
+    <Content Include="content\css\themes\bootstrap-cyborg.min.css" />
+    <Content Include="content\css\themes\bootstrap-darkly.min.css" />
+    <Content Include="content\css\themes\bootstrap-default.min.css" />
+    <Content Include="content\css\themes\bootstrap-flatly.min.css" />
+    <Content Include="content\css\themes\bootstrap-journal.min.css" />
+    <Content Include="content\css\themes\bootstrap-lumen.min.css" />
+    <Content Include="content\css\themes\bootstrap-paper.min.css" />
+    <Content Include="content\css\themes\bootstrap-readable.min.css" />
+    <Content Include="content\css\themes\bootstrap-sandstone.min.css" />
+    <Content Include="content\css\themes\bootstrap-slate.min.css" />
+    <Content Include="content\css\themes\bootstrap-spacelab.min.css" />
+    <Content Include="content\css\themes\bootstrap-superhero.min.css" />
+    <Content Include="content\css\themes\bootstrap-symplex.min.css" />
+    <Content Include="content\css\themes\bootstrap-united.min.css" />
+    <Content Include="content\css\themes\bootstrap-yeti.min.css" />
+    <Content Include="content\css\toastr.min.css" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\js\angular-animate.min.js" />
+    <Content Include="content\js\angular-cookies.min.js" />
+    <Content Include="content\js\angular-route.min.js" />
+    <Content Include="content\js\angular-sanitize.min.js" />
+    <Content Include="content\js\angular-touch.min.js" />
+    <Content Include="content\js\angular.min.js" />
+    <Content Include="content\js\bootstrap.min.js" />
+    <Content Include="content\js\jquery-2.1.1.min.js" />
+    <Content Include="content\js\startup.js" />
+    <Content Include="content\js\toastr.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
