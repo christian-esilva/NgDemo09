@@ -84,6 +84,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="app\app.js" />
+    <Content Include="app\areas\home\controllers\HomeCtrl.js" />
+    <Content Include="app\areas\home\views\index.html" />
+    <Content Include="app\areas\login\controllers\LoginCtrl.js" />
+    <Content Include="app\areas\login\views\login.html" />
+    <Content Include="app\repositories\CustomerRepository.js" />
     <Content Include="content\css\custom.css" />
     <Content Include="content\css\font-awesome.min.css" />
     <Content Include="content\css\spinner.css" />
@@ -116,10 +123,14 @@
     <Content Include="content\js\jquery-2.1.1.min.js" />
     <Content Include="content\js\startup.js" />
     <Content Include="content\js\toastr.min.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
